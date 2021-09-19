@@ -1,0 +1,37 @@
+<!-- design by Mohammad Mahdi Dehgahn -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a Number</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- header of the project -->
+
+    <header>
+        <h1>Guess a Number</h1>
+        <p>cpu will choose a number between 1 and 100, and you have to guess that number. <br> you have 10 chances to guess the number</p>
+    </header>
+
+    <!-- main part of the project -->
+
+    <main>
+<!-- user input -->
+    	<input type="number" placeholder="guess the number" id="guess-input"> <br>
+    	<button id="submit-btn">Submit Guess</button>
+        <h3 id="guess-status">guess a number</h3>
+    	<p id="previous-guess">
+            <span id="old-text">your previous Guesses will show here</span>
+        </p>
+        <button id="start-new-game">Start a new game</button>
+        <h4 id="chances">10 chances remain 
+        </h4>
+    </main>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

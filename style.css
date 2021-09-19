@@ -1,0 +1,129 @@
+/* css reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* header */
+
+body {
+	font-family: monospace;
+	background-image: url('img/02.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	padding: 50px 0 30px;
+	margin: 10px 20% 0;
+	background-color: rgba(255,255,255,.5);
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	position: relative;
+}
+
+header h1 {
+	font-size: 20pt;
+	padding: 0 0 15px;
+	color: #0042ff;
+}
+
+header p {
+	font-size: 12pt;
+	color: red;
+}
+
+/* main part */
+
+main {
+	height: 600px;
+	padding: 40px 0 30px;
+	margin: 0 20% 1%;
+	background-color: rgba(0,0,0,.2);
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+	position: relative;
+}
+
+main input {
+	width: 80%;
+	height: 40px;
+	padding: 2px 5px;
+	font-size: 14pt;
+	border-radius: 4px;
+	border: 2px solid #f9f9f9;
+}
+
+main button {
+	width: 80%;
+	height: 40px;
+	background-color: green;
+	color: white;
+	margin: 20px 0 20px;
+	padding: 2px 5px;
+	border: 2px solid lightgreen;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+main button:active {
+	transform: scale(0.99);
+	color: aqua;
+}
+
+main h3 {
+	width: 80%;
+	left: 10%;
+	text-align: center;
+	position: relative;
+	padding: 8px;
+	margin: 0 0 10px;
+	font-size: 14pt;
+	font-family: monospace;
+	color: orangered;
+	background-color: rgba(255,255,255,.4);
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+main #previous-guess {
+	width: 80%;
+	left: 10%;
+	text-align: left;
+	position: absolute;
+	padding: 8px;
+	font-size: 12pt;
+	font-family: monospace;
+	color: aqua;
+	background-color: rgba(0,0,0,.1);
+	border: 1px solid aquamarine;
+	border-radius: 5px;
+}
+
+main #start-new-game {
+	width: 40%;
+	text-align: center;
+	position: relative;
+	color: white;
+	background-color: blueviolet;
+	font-size: 16pt;
+	border-radius: 5px;
+	margin: 250px 30% 0;
+	display: none;
+}
+
+main #chances {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	padding: 15px 0 15px;
+	bottom: 0;
+	font-size: 18pt;
+	font-family: monospace;
+	color: orangered;
+	background-color: rgba(255,255,255,.4);
+	border-radius: 0 0 10px 10px;
+}
